@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="420" viewBox="0 0 1200 420" role="img" aria-labelledby="title desc">
+  <title id="title">SaigonVet8312 Coder — animated profile banner</title>
+  <desc id="desc">A glowing blue globe with orbiting nodes beside the GitHub username.</desc>
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#071426"/><stop offset="1" stop-color="#102b50"/></linearGradient>
+    <radialGradient id="planet" cx="32%" cy="27%"><stop stop-color="#9bf4ff"/><stop offset=".38" stop-color="#36bafa"/><stop offset="1" stop-color="#1551bd"/></radialGradient>
+    <linearGradient id="glow" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#71edff"/><stop offset="1" stop-color="#7b8cff"/></linearGradient>
+    <filter id="shine" x="-80%" y="-80%" width="260%" height="260%"><feGaussianBlur stdDeviation="8" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <clipPath id="clip"><circle cx="850" cy="210" r="126"/></clipPath>
+  </defs>
+  <rect width="1200" height="420" rx="28" fill="url(#bg)"/>
+  <circle cx="850" cy="210" r="148" fill="#38bdf8" opacity=".09"><animate attributeName="r" values="140;158;140" dur="4s" repeatCount="indefinite"/></circle>
+  <g fill="#d7f7ff" opacity=".8"><circle cx="90" cy="80" r="2"/><circle cx="420" cy="55" r="2"/><circle cx="1070" cy="75" r="2"/><circle cx="1110" cy="310" r="2"/><circle cx="590" cy="350" r="2"/></g>
+  <text x="82" y="158" fill="#75eaff" font-family="Segoe UI,Arial,sans-serif" font-size="19" letter-spacing="5">HELLO, WORLD</text>
+  <text x="78" y="220" fill="#f2f8ff" font-family="Segoe UI,Arial,sans-serif" font-size="43" font-weight="700">saigonvet8312-coder</text>
+  <text x="82" y="264" fill="#a8bfdc" font-family="Segoe UI,Arial,sans-serif" font-size="20">Building, learning, and sharing on GitHub</text>
+  <path d="M82 300h270" stroke="url(#glow)" stroke-width="3" stroke-linecap="round"/>
+  <g clip-path="url(#clip)">
+    <circle cx="850" cy="210" r="126" fill="url(#planet)"/>
+    <path d="M760 122l25 8 9 20-16 15-5 25-23 12-8 28-20 1-10-31 8-29-9-19 18-22 7-18zm112-22 18 8 5 17 27 8 9 23-16 15-3 23-24 8-18-19-17-3-5-22-18-13 5-24 21-11zm56 128 19 8 12 23-10 17-20-3-12-17 3-19zM785 248l22 9 8 20-17 18-5 24-23 18-16-12 7-26-11-16 12-22zm80 10 19-12 17 14 5 29-15 25-19-9-9-22z" fill="#aaf5de" opacity=".78"/>
+    <ellipse cx="850" cy="210" rx="126" ry="48" fill="none" stroke="#d5fbff" stroke-opacity=".45" stroke-width="2"/>
+    <ellipse cx="850" cy="210" rx="58" ry="126" fill="none" stroke="#d5fbff" stroke-opacity=".4" stroke-width="2"/>
+    <path d="M724 210h252M735 160h230M735 260h230" stroke="#d5fbff" stroke-opacity=".25" fill="none"/>
+    <circle cx="850" cy="210" r="126" fill="none" stroke="#9cf2ff" stroke-width="3"/>
+  </g>
+  <g fill="none" stroke="url(#glow)" stroke-width="2" opacity=".72">
+    <ellipse cx="850" cy="210" rx="190" ry="65" transform="rotate(-24 850 210)"/>
+    <ellipse cx="850" cy="210" rx="205" ry="82" transform="rotate(28 850 210)" stroke-dasharray="3 12"/>
+  </g>
+  <g filter="url(#shine)"><circle cx="686" cy="139" r="7" fill="#b8fbff"><animateMotion dur="8s" repeatCount="indefinite" path="M0 0 A190 65 -24 1 1 1 0"/></circle><circle cx="1000" cy="277" r="5" fill="#8db4ff"><animateMotion dur="11s" repeatCount="indefinite" path="M0 0 A205 82 28 1 0 -1 0"/></circle></g>
+</svg>
