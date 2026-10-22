@@ -1,5 +1,7 @@
 <div align="center">
-  <img src="svg/profile-orb.svg" alt="Animated blue globe banner" width="100%" />
+  <img src="svg/profile-orb.svg" alt="Banner quả cầu công nghệ" width="100%" />
+  <br />
+  <img src="images/profile.jpg" alt="Ảnh cá nhân của mình" width="180" />
 </div>
 
 ## Xin chào, mình là saigonvet8312-coder 👋
